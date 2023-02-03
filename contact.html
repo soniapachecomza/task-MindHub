@@ -4,23 +4,38 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/Logo.png">
-    <link rel="stylesheet" href="./assets/CSS/styles1.css" />
-    <!-- <link rel="stylesheet" href="./assets/CSS/styles2.css"> -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/img/Logo.png"
+    />
+    <link rel="stylesheet" href="./assets/CSS/styles1.css" /> 
+     <!-- <link rel="stylesheet" href="./assets/CSS/styles2.css">  -->
     <!-- <link rel="stylesheet" href="./assets/CSS/styles3.css"> -->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Hockey</title>
   </head>
   <body>
     <!--Inicio-->
     <header>
-      <img src="./assets/img/Logo.png" alt="logo ducks" class="logo" />
+      <div class="banner">
+        <div>
+          <h1 class="titulo">Mighty Ducks Hockey League</h1>
+        </div>
+      </div>
+
       <div>
-        <h1 class="titulo">Mighty Ducks Hockey League</h1>
+        <img src="./assets/img/Logo.png" alt="logo ducks" class="logo" />
       </div>
     </header>
-    <!--Fin-->
     <!--Seccion menu-->
+
     <nav>
       <div class="menu">
         <ul class="items">
@@ -31,6 +46,12 @@
             <a href="about.html"> About MDHL </a>
           </li>
           <li>
+            <a href="game.html"> Game information </a>
+          </li>
+          <li>
+            <a href="rules.html"> Rules </a>
+          </li>
+          <li>
             <a href="contact.html"> Contact </a>
           </li>
         </ul>
@@ -39,15 +60,19 @@
     <!--Fin menu-->
     <!--Seccion main-->
     <section>
+      <div class="context">
         <h2 class="subtitulo">Contact</h2>
-      <div>
-        <img src="./assets/img/hockey3.jpg" alt="hockey photo" class="hockey" />
-        <p>
-          Please email us at
-          <a href="mailto:mdhl@chihockey.org">mdhl@chihockey.org</a>
-        </p>
-        <p>We reply to your email as soon as we can.</p>
       </div>
+      <article class="section">
+        <div>
+          <!-- <img src="./assets/img/hockey_3.jpg" alt="hockey photo" class="hockey" /> -->
+          <p>
+            Please email us at
+            <a href="mailto:mdhl@chihockey.org">mdhl@chihockey.org</a>
+          </p>
+          <p>We reply to your email as soon as we can.</p>
+        </div>
+      </article>
     </section>
     <!--Fin main-->
   </body>

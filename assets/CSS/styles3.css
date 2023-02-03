@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    
+    background-color: bisque;
+  }
+  .logo {
+    width: 7%;
+    position: absolute;
+    margin: 10px;
+    bottom: 75px;
+    z-index: 2;
+    right: 20%;
+  }
+  .banner{
+    width: 100%;
+    background: url('../img/design1_image1.jpg') no-repeat;
+   
+    position: relative;
+    
+    height: 470px;
+    
+  }
+  .menu{
+    position: static;
+    top: 465px;
+    cursor: pointer;
+    background: rgb(80, 80, 216);
+    width: 100%;
+    padding: 10px 30px 30px;
+    
+  }
+  .items{
+    padding: 12px 10px 10px 50px;
+    display: inline;
+   
+  }
+  li{
+    list-style: none;
+    display: inline;
+    margin-right: 30px;
+    padding: 10px;    
+    
+  }
+  a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 18px;
+  }
+ li:hover{
+    background-color:rgb(116, 126, 116);
+    
+  }
+  .title {
+    position: relative;
+    margin: 145px;
+  }
+  .titulo {
+    font-family: 'Comic Neue', cursive;
+    font-size: 70px;
+    text-align: left;
+    color: white;
+    text-align: center;
+    margin-top: -5px;
+  }
+  .context{
+    bottom: -55px;
+    position: relative;
+  }
+  .subtitulo {
+    font-family: 'Comic Neue', cursive;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+ 
+    margin-top: 2px;
+  }
+  .section{
+    margin-left: 200px;
+    bottom: -80px;
+    position: relative;
+  }
+  h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    text-align: left;
+  }
+  p {
+    font-size: 15px;
+    text-align: justify;
+    text-indent: 30px;
+    margin-bottom: 20px;
+  }
+  .figure{
+    list-style-type: lower-latin;
+    color: #000;
+  }
+ td{
+  padding-right: 70px;
+ }
+ tr{
+  right: 80px;
+  text-align: center;
+ }
+
+ .datos{
+  color: #000;
+ } 
+ .info{
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 25px;
+ }
+ dt{
+  padding-right: 120px;
+ }

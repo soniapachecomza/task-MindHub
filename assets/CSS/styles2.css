@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .logo {
+    width: 12%;
+    position: absolute;
+    margin: 10px;
+    bottom: -130px;
+    z-index: 2;
+  }
+  .banner{
+    width: 100%;
+    background: url('../img/design1_image2.jpg') no-repeat;
+    position: relative;
+    top: 60px;
+    height: 470px;
+    border: 1px solid black;
+  }
+  .menu{
+    position: absolute;
+    top: 45px;
+    left: 900px;
+    cursor: pointer;
+
+  }
+  .items{
+    padding: 12px 10px 10px 50px;
+    display: inline;
+    
+  }
+  li{
+    list-style: none;
+    display: inline;
+    margin-right: 30px;
+    border: 2px solid black;
+    padding: 10px;    
+    background-color: rgb(80, 80, 216);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);;
+  }
+  a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+  }
+  .nav:hover{
+    background-color:rgb(57, 214, 57);
+  }
+  .title {
+    position: relative;
+    margin: 145px;
+  }
+  .titulo {
+    font-family: 'Comic Neue', cursive;
+    font-size: 70px;
+    text-align: left;
+    color: black;
+    margin-top: -5px;
+  }
+  .context{
+    bottom: -55px;
+    position: relative;
+  }
+  .subtitulo {
+    font-family: 'Comic Neue', cursive;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    border: 2px solid black;
+    margin-top: 2px;
+  }
+  .section{
+    margin-left: 200px;
+    bottom: -80px;
+    position: relative;
+  }
+  h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    text-align: left;
+  }
+  p {
+    font-size: 15px;
+    text-align: justify;
+    text-indent: 30px;
+    margin-bottom: 20px;
+  }
+  
