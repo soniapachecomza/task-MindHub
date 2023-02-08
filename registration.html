@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/Logo1.png"/>
+    <!-- <link rel="stylesheet" href="./assets/CSS/styles1.css" />  -->
+    <!-- <link rel="stylesheet" href="./assets/CSS/styles2.css">  -->
+    <link rel="stylesheet" href="./assets/CSS/styles3.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet"/>
+    <title>Hockey</title>
+  </head>
+  <body>
+    <!--Inicio-->
+    <header>
+      <div class="banner">
+        <div>
+          <h1 class="titulo">Mighty Ducks Hockey League</h1>
+        </div>
+      </div>
+
+      <div>
+        <img src="./assets/img/logo.png" alt="logo ducks" class="logo" />
+      </div>
+    </header>
+    <!--Seccion menu-->
+
+    <nav>
+      <div class="menu">
+        <ul class="items">
+          <li>
+            <a href="index.html"> Home </a>
+          </li>
+          <li>
+            <a href="about.html"> About MDHL </a>
+          </li>
+          <li>
+            <a href="game.html"> Game information </a>
+          </li>
+          <li>
+            <a href="rules.html"> Rules </a>
+          </li>
+          <li>
+            <a href="registration.html"> Registration </a>
+          </li>
+          <li>
+            <a href="contact.html"> Contact </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--Fin menu-->
+    <!--Seccion main-->
+    <section>
+      
+        <div class="context">
+          <h2 class="subtitulo">Registration Form</h2>
+        </div>
+      <div class="container">
+        <article class="section">
+          <form action="./show_data.html" method="get" class="form">
+            <fieldset>
+              <legend>Personal information</legend>
+
+              <div class="date">
+                <label for="name"> Player's First Name: </label>
+                <input type="text" name="name" id="name" placeholder="First Name"/>
+                <label for="lastname"> Last Name: </label>
+                <input type="text" name="lastname" id="name" placeholder="Last Name"/>
+              </div>
+  
+              <div class="street">
+                <label for="address"> Street Address: </label>
+                <input type="text" name="address" id="street" placeholder="Address"/>
+                <label for="city"> City: </label>
+                <input type="text" name="city" id="city" placeholder="City" />
+                <label for="number" id="zip"> Zip Code: </label>
+                <input type="number" name="city" code="city" id="zip" placeholder="Zip Code"/>
+              </div>
+
+              <div class="days">
+                <label>
+                  Birth Date:
+                  <input type="date" name="bday" id="day"/>
+                </label>
+              </div>
+              <div class="gender">
+                <label> <b>Gender:</b> </label>
+                  <input name="gender" type="checkbox" id="gender"/>Female
+                  <input name="gender" type="checkbox" id="gender"/>Male
+              </div>
+              <div class="grade">
+                <label> <b>Grade:</b> </label>
+                <input name="grade" type="checkbox" id="grade"/>Pre-School
+   
+                <input name="grade" type="checkbox" id="grade"/>1st
+    
+                <input name="grade" type="checkbox" id="grade"/>2nd
+    
+                <input name="grade" type="checkbox" id="grade"/>3rd
+    
+                <input name="grade" type="checkbox" id="grade"/>4th
+    
+                <input name="grade" type="checkbox" id="grade"/>5th
+    
+              </div>
+              
+            </fieldset>
+            <fieldset>
+              <legend>Play's and Players</legend>
+              <h4>
+                  Which elementary school do you live near?
+              </h4>
+
+              <div>
+                <label>
+                  <b>Closest School: </b>
+                </label>
+                <div class="team">
+                  <div id="columns1">
+                    <input name="teams" type="checkbox" id="team"/>AJ Katzenmaier
+    
+                    <input name="teams" type="checkbox" id="team"/>Greenbay
+        
+                    <input name="teams" type="checkbox" id="team"/>Howard A Yeager
+                  </div>
+                  
+                  <div id="columns2">
+                    <input name="teams" type="checkbox" id="team"/>Marjorie P Hart
+      
+                    <input name="teams" type="checkbox" id="team"/>North Elementary
+      
+                    <input name="teams" type="checkbox" id="team"/>South Elementary
+                  </div>
+                </div>
+              </div>
+  
+              <div class="place">
+                <label >
+                  What position(s) do you normally play? (check all that apply)
+                </label>
+                  <input name="place" type="checkbox" id="place"/>Forward
+      
+                  <input name="place" type="checkbox" id="place"/>Defense
+
+                  <input name="place" type="checkbox" id="place"/>Midfield
+
+                  <input name="place" type="checkbox" id="place"/>Goalkeeper
+
+              </div>
+              <div class="uniform">
+                <label>
+                  Uniform Size:
+              </label>
+              <input name="uniform" type="checkbox" id="uniform"/>Youth Small
+
+              <input name="uniform" type="checkbox" id="uniform"/>Youth Medium
+
+              <input name="uniform" type="checkbox" id="uniform"/>Youth Large
+  
+              <input name="uniform" type="checkbox" id="uniform"/>Small
+  
+              <input name="uniform" type="checkbox" id="uniform"/>Medium
+  
+              <input name="uniform" type="checkbox" id="uniform"/>Large
+  
+              <input name="uniform" type="checkbox" id="uniform"/>Extra-Large
+
+              </div>
+            </fieldset>
+            <div>
+              <h2>Permission to Play</h2>
+              <p>I, the parent or guardian of the minor registrant, agree 
+                  that the registrant and I will abide by all of the rules of 
+                  Mighty Ducks Hockey League (MDHL). In recognizing the possibility of
+                  physical injury associated with hockey and in consideration for the "League"
+                  accepting the registrant for its hockey programs and activities, I hereby release, 
+                  discharge, and/or otherwise indemnify MDHL, their employees and associated personnel
+                  and volunteer, including the facilities used for registrant's participation
+                  in the programand/orbeing transported to or from MDHL sponsored activities,
+                  which transportation.
+              </p>
+              <p>
+                  By signing below, I hereby agree and autorize the above. In addition, by signing
+                  below, I also acknowledge that I have read the cancellation policy and agree to its terms
+              </p>
+              <span class="firm">Parent/Guardian Signature:</span>
+              <div class="line"></div>
+              <span class="firm">Date:</span>
+              <div class="line1"></div>
+            </div>
+            <button type="submit" class="btn">Send</button>
+          </form>
+        </article>
+      </div>
+    </section>
+    <!--Fin main-->
+  </body>
+</html>
