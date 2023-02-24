@@ -9,12 +9,12 @@ body{
 }
 
 .logo {
-  width: 20%;
+  width: 25%;
   position: absolute;
-  margin: 50px;
+  margin: 70px;
   top: -5px;
   z-index: 2;
-  right: 530px;
+  right: 480px;
 }
 
 .banner{
@@ -23,7 +23,7 @@ body{
   height: 270px;
 }
 .titulo {
-  font-family: 'Comic Neue', cursive;
+  font-family: 'Lobster', cursive;
   font-size: 80px;
   text-align: left;
   color: rgb(252, 249, 117);
@@ -93,6 +93,12 @@ p {
   text-align: justify;
   text-indent: 30px;
   margin-bottom: 20px;
+  line-height: 1.5;
+}
+.hockey{
+  width: 100%;
+  height: 420px;
+  padding-bottom: 10px;
 }
 .info{
   font-weight: bold;
@@ -126,10 +132,22 @@ p {
   justify-content:space-around;
   
  }
- .figure{
+ .list_order{
+  margin-left: 40px;
+  line-height: 1.5;
+ }
+ .figure {
   list-style-type: lower-latin;
-  padding-left: 100px;
+  margin-left: 40px;
   color: #000;
+}
+.list_desorder{
+  margin-left: 40px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.play{
+  margin-left: 200px;
 }
 td{
 margin-right: 70px;
@@ -154,7 +172,9 @@ h4{
   width: 50%;
   
 }
-
+span{
+  margin: 30px;
+}
 /*form*/
 legend{
   font-weight: bold;
@@ -235,24 +255,24 @@ h4{
 #teams{
   margin: 10px;
   display: flex;
-  flex-direction: column;
-}
-#columna1 {
-  top:10px;
-  left:50px;
-  width:250px;
-  height: 10px;
-  margin-top:200px;
-}
-#columna2 {
-  margin-left:220px;
-  margin-right:20px;
-  margin-top:10px;
+  
 }
 .place{
   height: 30px;
-  margin: 70px;
+  margin: 7px;
   font-size: 15px;
+}
+.uniform{
+  margin: 10px;
+  font-size: 15px;
+  margin-left: 20px;
+  width: 220px;
+  line-height: 1.5;
+  column-width: 800px;
+  gap: 130px;
+}
+#uniform{
+  column-span: all;
 }
 .firm{
   font-weight: bold;
@@ -260,12 +280,12 @@ h4{
 }
 .line{
   width: 20%;
-  margin-left: 200px;
+  margin-left: 220px;
   border-bottom: 3px solid black;
 }
 .line1{
   width: 20%;
-  margin-left: 35px;
+  margin-left: 65px;
   border-bottom: 3px solid black;
 }
 /*boton*/
@@ -277,3 +297,103 @@ h4{
   border-radius: 13px;
   border: none;
 }
+.form_Title{
+  margin-left: 20px;
+}
+/*data*/
+.tabla_Data{
+  margin-left: 300px;
+  border: 2px solid gold;
+}
+.title_data{
+  background-color: #457e77;
+  color: white;
+  font-size: 19px;
+}
+
+/*footer*/
+.main-footer {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #457e77;
+}
+
+.main-footer ul {
+  list-style: none;
+}
+
+.main-footer h1 {
+  font-size: 22px;
+  line-height: 117%;
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.main-footer h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 25px;
+  color: rgb(252, 249, 117);
+  -webkit-text-stroke: 2px rgb(177, 24, 24);
+  text-align: center;
+  margin-top: -5px;
+  text-shadow: #e1e7e7 3px 5px;
+}
+
+.main-footer ul li a {
+  color: #ffffffcc;
+  text-decoration:none;
+}
+
+footer {
+  background-color: #19302E;
+  border-top: 3px solid #fff;
+  font-size: 17px;
+  padding: 15px 5px;
+  color: #ffffff;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.contact-details {
+  margin-top: 20px;
+}
+
+.contact-details li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.contact-details li a {
+  text-decoration:none;
+  color: #f1f1f1;
+}
+
+.contact-details .fa {
+  color: #f1f1f1;
+  margin-right: 10px;
+}
+
+.sociallogos{
+  padding:20px 0;
+}
+
+.sociallogos .logobox a{
+  padding:0 10px;
+  text-decoration:none;
+  color:#ffffff;
+  font-size:22px;
+  font-weight: bold;
+}
+.sociallogos .logobox a:hover{
+  color:gold;
+}
+.com ul li{
+  padding:5px 0;
+}
+/*media query*/
